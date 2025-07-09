@@ -21,9 +21,11 @@ docker-compose up -d
 
 ### 4. Crear archivo .env para variables de entorno
 Configurar 
+```bash
+
 DATABASE_URL=postgresql://ecommerce:ecommerce@localhost/ecommerce
 JWT_SECRET="cualquier-secret-key"
-
+```
 ### 6. Ejecutar migraciones Prisma
 ```bash
 npx prisma migrate dev --name init
