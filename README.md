@@ -29,6 +29,7 @@ JWT_SECRET="cualquier-secret-key"
 ### 6. Ejecutar migraciones Prisma
 ```bash
 npx prisma migrate dev --name init
+npx prisma generate
 ```
 
 ### 7. Crear seed para base de datos
